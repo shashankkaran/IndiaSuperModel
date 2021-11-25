@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/nextModelNepal/static/css/main.a8dd0c44.chunk.css",
+    "main.js": "/nextModelNepal/static/js/main.4f6327a0.chunk.js",
+    "main.js.map": "/nextModelNepal/static/js/main.4f6327a0.chunk.js.map",
+    "runtime-main.js": "/nextModelNepal/static/js/runtime-main.52b41740.js",
+    "runtime-main.js.map": "/nextModelNepal/static/js/runtime-main.52b41740.js.map",
+    "static/js/2.b73c0e79.chunk.js": "/nextModelNepal/static/js/2.b73c0e79.chunk.js",
+    "static/js/2.b73c0e79.chunk.js.map": "/nextModelNepal/static/js/2.b73c0e79.chunk.js.map",
+    "index.html": "/nextModelNepal/index.html",
+    "static/css/main.a8dd0c44.chunk.css.map": "/nextModelNepal/static/css/main.a8dd0c44.chunk.css.map",
+    "static/js/2.b73c0e79.chunk.js.LICENSE.txt": "/nextModelNepal/static/js/2.b73c0e79.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/nextModelNepal/static/media/models.4fe88532.jpg",
+    "static/media/x1.9b7408ec.jpg": "/nextModelNepal/static/media/x1.9b7408ec.jpg",
+    "static/media/x2.f5c06990.jpg": "/nextModelNepal/static/media/x2.f5c06990.jpg",
+    "static/media/x3.e0736a20.jpg": "/nextModelNepal/static/media/x3.e0736a20.jpg",
+    "static/media/x4.ceeeac55.gif": "/nextModelNepal/static/media/x4.ceeeac55.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52b41740.js",
+    "static/js/2.b73c0e79.chunk.js",
+    "static/css/main.a8dd0c44.chunk.css",
+    "static/js/main.4f6327a0.chunk.js"
+  ]
+}
