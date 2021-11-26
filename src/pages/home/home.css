@@ -27,7 +27,7 @@ a:hover{
 
 }
 .con1{
-    background-image:url(img/models.jpeg);
+    background-image:url(../../img/models.jpeg);
     background-size:100%;
    
     filter: contrast(2.0);
@@ -42,7 +42,7 @@ a:hover{
 }
 .con3{
     height: 100vh;
-    background-image: url(img/banner2.jpeg);
+    background-image: url(../../img/banner2.jpeg);
     /* background-size: cover; */
     background-attachment: fixed;
     opacity: 0.5;
