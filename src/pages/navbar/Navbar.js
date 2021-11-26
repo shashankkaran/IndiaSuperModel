@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../img/logo.jpeg';
 import "./nav.css";
+import { NavLink as Link } from 'react-router-dom'
 function Navbar() {
   return (
     <div>
@@ -13,11 +14,12 @@ function Navbar() {
             <span style={{ color: '#FBBF24' }} class="ml-3 text-xl">Super Model</span>
           </a>
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a href="/" class="mr-4 hover:text-yellow-400">Home</a>
-            <a href="/about" class="mr-4 hover:text-yellow-400">About Us</a>
+
+           <a class="link mr-4 hover:text-yellow-400"><Link to='/'> Home</Link> </a>
+           <a  class="link mr-4 hover:text-yellow-400">  <Link to='/about'>About Us</Link></a>
             <a href="/we-offer" class="mr-4 hover:text-yellow-400">We Offer</a>
             <a href="/portfolio" class="mr-4 hover:text-yellow-400">Portfolio</a>
-            <a href="/become-a-model" class="mr-4 hover:text-yellow-400">Become a Model</a>
+           <a class="link mr-4 hover:text-yellow-400"> <Link to='/become-a-model'>Become a Model</Link></a>
             <a href="/testimonial" class="mr-4 hover:text-yellow-400">Testimonials</a>
 
           </nav>
