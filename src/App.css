@@ -3,7 +3,18 @@
     padding: 0;
     margin: 0;
     background-color: #111827;
+   
 }
+
+a{
+    color: yellow;
+   
+}
+a:hover{
+    text-decoration: none;
+}
+
+
 
 .con{
     display: flex;
@@ -16,9 +27,12 @@
 
 }
 .con1{
-    background-image:url(img/models.jpg);
-    background-size: cover;
+    background-image:url(img/models.jpeg);
+    background-size:100%;
+   
     filter: contrast(2.0);
+    background-repeat: no-repeat;
+
     
     
 }
@@ -31,7 +45,7 @@
     background-image: url(img/div3.jpg);
     background-size: cover;
     background-attachment: fixed;
+
  }
-.con4{
+/* .con4{
   /* background-color: aqua; */
-}

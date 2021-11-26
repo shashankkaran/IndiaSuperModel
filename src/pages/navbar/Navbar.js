@@ -1,5 +1,5 @@
-import React from 'react'
-
+import React from 'react';
+import "./nav.css";
 function Navbar() {
     return (
         <div>
@@ -11,12 +11,12 @@ function Navbar() {
       <span style={{color:'#FBBF24'}} class="ml-3 text-xl">Jalwa</span>
     </a>
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a href="/" class="mr-5 hover:text-yellow-400">Home</a>
-      <a href="/" class="mr-5 hover:text-yellow-400">About Us</a>
-      <a href="/" class="mr-5 hover:text-yellow-400">We Offer</a>
-      <a href="/" class="mr-5 hover:text-yellow-400">Portfolio</a>
-      <a href="/" class="mr-5 hover:text-yellow-400">Become a Model</a>
-      <a href="/" class="mr-5 hover:text-yellow-400">Testimonials</a>
+      <a href="/" class="mr-4 hover:text-yellow-400">Home</a>
+      <a href="/" class="mr-4 hover:text-yellow-400">About Us</a>
+      <a href="/" class="mr-4 hover:text-yellow-400">We Offer</a>
+      <a href="/" class="mr-4 hover:text-yellow-400">Portfolio</a>
+      <a href="/" class="mr-4 hover:text-yellow-400">Become a Model</a>
+      <a href="/" class="mr-4 hover:text-yellow-400">Testimonials</a>
    
     </nav>
     <div class="inline-flex items-center bg-yellow-400 border-0 py-1 px-3 focus:outline-none hover:bg-yellow-300 rounded text-base mt-4 md:mt-0">

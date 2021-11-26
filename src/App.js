@@ -7,6 +7,7 @@ import x3 from "./img/x3.jpg";
 import x2 from "./img/x2.jpg";
 import x1 from "./img/x1.jpg";
 
+
 function App() {
 
   const [offsetY, setOffsetY] = useState(0);
@@ -38,7 +39,7 @@ function App() {
             <div class="flex flex-wrap -m-4">
 
 
-            <div class="lg:w-1/3 sm:w-1/2 p-4">
+              <div class="lg:w-1/3 sm:w-1/2 p-4">
                 <div class="flex relative">
                   <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x2} />
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
@@ -114,13 +115,39 @@ function App() {
 
 
       <div style={{ transform: `translateY(${offsetY * -0.05}px)` }} className='con con3'>
-     
+
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img width="550vh" class="d-block " src={x4} alt="First slide" />
+            </div>
+            <div class="carousel-item">
+              <img  width="550vh" class="d-block " src={x2} alt="Second slide" />
+            </div>
+            <div class="carousel-item">
+              <img  width="550vh" class="d-block " src={x1} alt="Third slide" />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
       </div>
 
 
+
+
       <div className='con con4'>Div4</div>
-     
-     
+
+
     </div>
   );
 }
