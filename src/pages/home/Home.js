@@ -12,7 +12,6 @@ import './home.css';
 
 
 
-
 function Home() {
     const [offsetY, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
