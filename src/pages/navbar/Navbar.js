@@ -9,9 +9,9 @@ function Navbar() {
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
           <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M13 14c0 1.654-1.346 3-3 3s-3-1.346-3-3 1.346-3 3-3 3 1.346 3 3zm11-2c0 6.627-5.373 12-12 12s-12-5.373-12-12 5.373-12 12-12 12 5.373 12 12zm-6-6h-6v2h2.586l-1.84 1.827c-.788-.52-1.73-.827-2.746-.827-2.762 0-5 2.238-5 5s2.238 5 5 5 5-2.238 5-5c0-1.022-.31-1.97-.836-2.762l1.836-1.824v2.586h2v-6z"/></svg> */}
-            <img style={{ borderRadius: '50%' }} width="80" height="80" viewBox="0 0 100 100" src={logo} />
+            <img style={{  }} width="80" height="80" viewBox="0 0 100 100" src={logo} />
 
-            <span style={{ color: '#FBBF24' }} class="ml-3 text-xl">Super Model</span>
+            <span style={{ color: '#FBBF24' }} class="ml-3 text-xl">Northeast India <br/>Super Model</span>
           </a>
           <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
 

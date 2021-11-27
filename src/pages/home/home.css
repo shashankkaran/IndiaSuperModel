@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     background-color: #111827;
+
    
 }
 
@@ -38,14 +39,15 @@ a:hover{
 }
 .con2{
     background-color:#111827;
+   
 
 }
 .con3{
     height: 100vh;
-    background-image: url(../../img/banner2.jpeg);
+    /* background-image: url(../../img/banner2.jpeg); */
     /* background-size: cover; */
-    background-attachment: fixed;
-    opacity: 0.5;
+    /* background-attachment: fixed; */
+    /* opacity: 0.5; */
     
  }
  .csel{
@@ -58,3 +60,15 @@ a:hover{
     opacity: 0.6;
    
 }
+@media only screen and (max-width: 600px) {
+    .con2{
+        background-color:#111827;
+        position: relative;
+        top:29rem;
+    
+    }
+    .con3{
+        position: relative;
+        top:32rem;
+    }
+  }

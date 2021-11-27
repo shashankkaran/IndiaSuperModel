@@ -2,3 +2,6 @@ h2{
     color: yellow !important;
     font-size: larger !important;
 }
+.center{
+    text-align: center;
+}

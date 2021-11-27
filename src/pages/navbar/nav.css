@@ -1,3 +1,15 @@
 svg{
     margin: 5px;
 }
+a{
+   color: #FCD34D !important; 
+}
+a:hover{
+    color: #FBBF24;
+    font-weight: bolder;
+}
+.active{
+    font-weight: bolder;
+    color: #FBBF24;
+
+}

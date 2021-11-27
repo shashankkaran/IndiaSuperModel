@@ -2,7 +2,7 @@
 import './App.css';
 
 import Navbar from './pages/navbar/Navbar'
-
+import Footer from './pages/footer/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/home/Home';
 import About from './pages/about/About';
@@ -24,6 +24,7 @@ function App() {
        <Route path="/about" element={<About/>}></Route> */}
 
         </Routes>
+        <Footer/>
       </Router>
 
     </>

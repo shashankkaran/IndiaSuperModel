@@ -1,10 +1,13 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 import Navbar from "../navbar/Navbar"
-import x4 from "../../img/x4.gif";
-import x3 from "../../img/x3.jpg";
-import x2 from "../../img/x2.jpg";
-import x1 from "../../img/x1.jpg";
+import x6 from "../../img/m6.jpg";
+import x5 from "../../img/m5.png";
+
+import x4 from "../../img/m4.png";
+import x3 from "../../img/m3.png";
+import x2 from "../../img/m2.png";
+import x1 from "../../img/m1.png";
 import csel1 from "../../img/csel1.jpg";
 import csel2 from "../../img/csel2.jpg";
 import csel3 from "../../img/csel3.jpg";
@@ -44,7 +47,7 @@ function Home() {
   
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
                   <div class="flex relative">
-                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x2} />
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x1} />
                     <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                       <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
                       <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
@@ -69,22 +72,12 @@ function Home() {
   
   
   
-                <div class="lg:w-1/3 sm:w-1/2 p-4">
-                  <div class="flex relative">
-                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x2} />
-                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                      <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
-                      <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
-                      <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
-                    </div>
-                  </div>
-                </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
                   <div class="flex relative">
                     <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x3} />
                     <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                       <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
-                      <h1 class="title-font text-lg font-medium text-white mb-3">Neptune</h1>
+                      <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
                       <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     </div>
                   </div>
@@ -94,6 +87,16 @@ function Home() {
                     <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x4} />
                     <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                       <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
+                      <h1 class="title-font text-lg font-medium text-white mb-3">Neptune</h1>
+                      <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="lg:w-1/3 sm:w-1/2 p-4">
+                  <div class="flex relative">
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x5} />
+                    <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                      <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
                       <h1 class="title-font text-lg font-medium text-white mb-3">Holden Caulfield</h1>
                       <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
                     </div>
@@ -101,7 +104,7 @@ function Home() {
                 </div>
                 <div class="lg:w-1/3 sm:w-1/2 p-4">
                   <div class="flex relative">
-                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x1} />
+                    <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x6} />
                     <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
                       <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
                       <h1 class="title-font text-lg font-medium text-white mb-3">Alper Kamu</h1>
@@ -118,19 +121,20 @@ function Home() {
   
   
   
-        <div style={{ transform: `translateY(${offsetY * -0.1}px)` }} className='con con3'>
+        <div  className='con con3'>
   
   
-          <div  style={{ transform: `translateY(${offsetY * -0.05}px)` }} id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div   id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img width="600vh" class="d-block csel" src={csel1} alt="First slide" />
+                <img class="d-block csel" src={csel1} alt="First slide" />
+              
               </div>
               <div class="carousel-item">
-                <img  width="600vh" class="d-block csel" src={csel2} alt="Second slide" />
+                <img  class="d-block csel" src={csel2} alt="Second slide" />
               </div>
               <div class="carousel-item">
-                <img  width="600vh" class="d-block csel" src={csel3} alt="Third slide" />
+                <img  class="d-block csel" src={csel3} alt="Third slide" />
               </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

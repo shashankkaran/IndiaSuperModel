@@ -1,0 +1,24 @@
+.input{
+    color:#FBBF24 !important;
+    background-color : #111827; 
+    border: 1px solid #FBBF24 !important ;
+  }
+  .input:hover, .input:active, .input:focus{
+      color: #FBBF24 !important;
+      background-color: #111827;
+  }
+  h1,h2,label,p{
+      color: #FBBF24 !important;
+  }
+  button{
+      border: 1px solid #FBBF24 !important;
+  }
+  h5{
+      color: white !important;
+      font-weight: lighter;
+  }
+  #gender{
+      background-color: #111827;
+      color: #111827 !important;
+
+  }
