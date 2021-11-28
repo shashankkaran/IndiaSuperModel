@@ -1,15 +1,82 @@
 svg{
     margin: 5px;
 }
-a{
-   color: #FCD34D !important; 
+
+svg:hover{
+    color: #F59E0B;
 }
+a{
+   color: #FCD34D !important;
+   font-size: larger; 
+}
+
 a:hover{
     color: #FBBF24;
-    font-weight: bolder;
+    /* font-weight: bolder; */
 }
+
 .active{
     font-weight: bolder;
     color: #FBBF24;
 
 }
+
+.nav{
+    background-image: url(../../img/fbcoverfinal.png);
+    height: 100vh;
+    background-size:100%;
+   
+    width: 100vw;
+    /* height: 100vh !important; */
+    background-repeat: no-repeat;
+    /* background-size: cover !important; */
+}
+.onav{
+    /* margin-bottom: 10px; */
+    position: relative;
+    bottom: 35%;
+}
+
+
+
+@media only screen and (min-width: 769px) {
+   .nav{
+    
+    background-attachment: fixed;
+    background-size: cover !important;
+   }
+   .onav{
+    /* margin-bottom: 10px; */
+    position: relative;
+   /* top: 10px; */}
+
+ 
+}
+  
+  
+  @media only screen and (max-width: 760px) {
+    .onav{
+        /* margin-bottom: 10px; */
+        position: relative;
+       top: -0.4rem;
+    }
+
+   .smm{
+       position: relative;
+       top: 5rem;
+       margin-top: -1rem;
+   }
+   .nav{
+       
+       
+       /* height: 120%; */
+       
+       background-size:110vh ;
+       height: fit-content;
+   }
+   a{
+    color: #FCD34D !important;
+    font-size: large; 
+ }
+   
+   }

@@ -1,4 +1,4 @@
-*{
+body{
     border: 0;
     padding: 0;
     margin: 0;
@@ -24,11 +24,11 @@ a:hover{
     font-weight: bold;
     font-family: big john;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
 
 }
 .con1{
-    background-image:url(../../img/models.jpeg);
+    /* background-image:url(../../img/models.jpeg); */
     background-size:100%;
    
     filter: contrast(2.0);
@@ -43,7 +43,7 @@ a:hover{
 
 }
 .con3{
-    height: 100vh;
+    /* height: 100vh; */
     /* background-image: url(../../img/banner2.jpeg); */
     /* background-size: cover; */
     /* background-attachment: fixed; */
@@ -52,23 +52,23 @@ a:hover{
  }
  .csel{
      opacity: 1;
-     filter: contrast(1.2);
+     /* filter: contrast(1.2); */
     
     }
 .con4{
     background-image: url();
-    opacity: 0.6;
+    /* opacity: 0.6; */
    
 }
 @media only screen and (max-width: 600px) {
     .con2{
         background-color:#111827;
-        position: relative;
-        top:29rem;
+        /* position: relative;
+        top:29rem; */
     
     }
     .con3{
         position: relative;
-        top:32rem;
+        top:-38rem;
     }
   }

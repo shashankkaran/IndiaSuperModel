@@ -3,7 +3,7 @@ import '../becomemodel/bam.css'
 function Footer() {
     return (
         <div>
-            <footer class="text-gray-600 body-font">
+            <footer  class="text-gray-600 body-font">
   <hr style={{'background-color':'yellow'}}/>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap md:text-left text-center order-first">
@@ -73,7 +73,7 @@ function Footer() {
       </div>
     </div>
   </div>
-  <div class="bg-gray-100">
+  <div class="bg-gray-900">
     <div class="containerr px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
@@ -84,6 +84,7 @@ function Footer() {
       <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2021 northeast_india_supermodel 
         {/* <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@shashank</a> */}
       </p>
+     
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <a class="text-gray-500">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

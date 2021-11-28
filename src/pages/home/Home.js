@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from "react";
-import Navbar from "../navbar/Navbar"
+// import Navbar from "../navbar/Navbar"
 import x6 from "../../img/m6.jpg";
 import x5 from "../../img/m5.png";
 
@@ -146,7 +146,7 @@ function Home() {
               <span class="sr-only">Next</span>
             </a>
           </div>
-  
+
   
         </div>
   
