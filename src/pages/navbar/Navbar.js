@@ -21,7 +21,7 @@ function Navbar() {
             <a class="link mr-4 hover:text-yellow-400"><Link to='/we-offer'>We Offer</Link></a>
             <a class="link mr-4 hover:text-yellow-400"><Link to='/portfolio'>Portfolio</Link></a>
             <a class="link mr-4 hover:text-yellow-400"> <Link to='/become-a-model'>Become a Model</Link></a>
-            <a class="link mr-4 hover:text-yellow-400"><Link to='/testimonials'>Testimonials</Link></a>
+            <a class="link mr-4 hover:text-yellow-400"><Link to='/testimonial'>Testimonials</Link></a>
 
           
           <div class="smm inline-flex items-center  border-0 py-1 px-3 focus:outline-none rounded text-base mb-4 md:mt-0">

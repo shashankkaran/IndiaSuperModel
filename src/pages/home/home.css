@@ -14,7 +14,12 @@ a{
 a:hover{
     text-decoration: none;
 }
-
+h1{
+    color: #FBBF24 !important;  
+}
+p{
+    font-weight: lighter;
+}
 .carousel-control-next-icon,.carousel-control-prev-icon{
     width: 50px;
     height: 50px;
@@ -22,7 +27,26 @@ a:hover{
     background-color: #FBBF24;
     background-size: 60% 60%;
 }
+.carousel-control-next-icon{
+position: relative;
+left: 300%;
+}
+.carousel-control-prev-icon{
+    position: relative;
+    right: 300%;
+}
 
+
+.csel{
+    width: 50vh;
+   
+    position: relative;
+    left: 0%;
+    height: 50vh;
+    border-radius: 1rem;
+   
+    right: auto;
+}
 .con{
     display: flex;
     align-items: center;
@@ -49,12 +73,7 @@ a:hover{
 
 }
 .con3{
-    /* height: 100vh; */
-    /* background-image: url(../../img/banner2.jpeg); */
-    /* background-size: cover; */
-    /* background-attachment: fixed; */
-    /* opacity: 0.5; */
-    
+   
  }
  .csel{
      opacity: 1;
@@ -75,6 +94,24 @@ a:hover{
     }
     .con3{
         position: relative;
-        top:-38rem;
+        top:-30rem;
     }
+
+
+    .csel{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .carousel-control-next-icon{
+        position: relative;
+        left: 0%;
+        }
+        .carousel-control-prev-icon{
+            position: relative;
+            right: 0%;
+        }
+        
+
+
   }
+  
