@@ -15,7 +15,13 @@ a:hover{
     text-decoration: none;
 }
 
-
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 1.2rem;
+    background-color: #FBBF24;
+    background-size: 60% 60%;
+}
 
 .con{
     display: flex;
