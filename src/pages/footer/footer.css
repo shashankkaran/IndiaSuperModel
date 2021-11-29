@@ -1,0 +1,19 @@
+
+
+  @media only screen and (max-width: 500px){
+.footerbrand{
+    font-size: 1rem !important; 
+}
+.img{
+    width: 20%;
+}
+  }
+    @media only screen and (min-width: 800px) {
+    .img{
+
+        width: 8%;
+    }
+    .footerbrand{
+    font-size: 2rem !important; 
+}
+}

@@ -132,7 +132,7 @@ function Home() {
       <div className='con con3'>
         
 
-        <div data-aos="zoom-in"  id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div data-aos="zoom-in"  id="carouselExampleControls" class="mt-5 mb-5 carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block csel" src={csel1} alt="First slide" />

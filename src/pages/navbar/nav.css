@@ -7,26 +7,27 @@ svg:hover{
 }
 a{
    color: #FCD34D !important;
-   font-size: larger; 
+   font-size: large; 
 }
 
 a:hover{
-    color: #FBBF24;
+    color: #F59E0B;
     /* font-weight: bolder; */
 }
 
 .active{
+    font-size: large;
     font-weight: bolder;
     color: #FBBF24;
 
 }
 
 .nav{
-    background-image: url(../../img/fbcoverfinal.png);
-    height: 100vh;
+   
+    /* height: 100vh; */
     background-size:100%;
    
-    width: 100vw;
+    /* width: 100vw; */
     /* height: 100vh !important; */
     background-repeat: no-repeat;
     /* background-size: cover !important; */
@@ -40,17 +41,24 @@ a:hover{
 
 
 @media only screen and (min-width: 769px) {
-   .nav{
-    
-    background-attachment: fixed;
-    background-size: cover !important;
+   .top-box{
+       padding-bottom: 0rem !important;
+       margin-bottom: -7rem !important;
    }
    .onav{
     /* margin-bottom: 10px; */
     position: relative;
+    left: 12rem;
    /* top: 10px; */}
 
- 
+ .brand{
+     position: relative;
+     right: 5rem;
+     top: 0.5rem;
+ }
+ header{
+     /* height: 40% !important; */
+ }
 }
   
   
@@ -58,14 +66,23 @@ a:hover{
     .onav{
         /* margin-bottom: 10px; */
         position: relative;
-       top: -0.4rem;
+       top: -0.3rem;
     }
-
+    .brand{
+        position: relative;
+        left: 1rem;
+    }
+.break{
+   display: none;
+}
    .smm{
        position: relative;
-       top: 5rem;
-       margin-top: -1rem;
+     right: 1rem;
    }
+   .top-box{
+    padding-bottom: 0rem !important;
+    margin-bottom: -2rem !important;
+}
    .nav{
        
        

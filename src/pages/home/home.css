@@ -60,10 +60,11 @@ left: 300%;
 .con1{
     /* background-image:url(../../img/models.jpeg); */
     background-size:100%;
-   
+    background-image: url(../../img/fbcoverfinal.png);
+   height: 20vh;
     filter: contrast(2.0);
     background-repeat: no-repeat;
-
+/* background-attachment: fixed; */
     
     
 }
@@ -82,9 +83,22 @@ left: 300%;
     }
 .con4{
     background-image: url();
+    /* background-attachment: fixed; */
     /* opacity: 0.6; */
    
 }
+
+@media only screen and (min-width: 600px) {
+    .con1{
+      height: 40vh;
+      
+    }
+}
+@media only screen and (min-width: 800px) {
+    .con1{
+      height: 80vh;
+      
+    }}
 @media only screen and (max-width: 600px) {
     .con2{
         background-color:#111827;
@@ -117,6 +131,6 @@ left: 300%;
         }
         
 
-
+      
   }
   

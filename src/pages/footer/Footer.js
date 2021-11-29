@@ -1,9 +1,12 @@
 import React from 'react'
 import '../becomemodel/bam.css'
+import './footer.css'
+import logo from '../../img/logo.png'
+import {  NavLink as Link }  from 'react-router-dom'
 function Footer() {
     return (
         <div>
-            <footer  class="text-gray-600 body-font">
+<footer  class="text-gray-600 body-font">
   <hr style={{'background-color':'yellow'}}/>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap md:text-left text-center order-first">
@@ -14,10 +17,10 @@ function Footer() {
             <a class="text-gray-600 hover:text-gray-800">+91 12345 67899</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">3rd Floor, Divine Complex,Mumbai.India</a>
+            <a class="text-gray-600 hover:text-gray-800">6th Mile Tadong Gangtok Sikkim 737102</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">info@gmail.com</a>
+            <a class="text-gray-600 hover:text-gray-800">Email:connect@dreamland<br/>filmproductionhouse.com</a>
           </li>
           <li>
             {/* <a class="text-gray-600 hover:text-gray-800">Fourth Link</a> */}
@@ -28,16 +31,16 @@ function Footer() {
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Quick Links</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Home</a>
+            <a class="text-gray-600 hover:text-gray-800"><Link to='/'>Home</Link></a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">About Us</a>
+            <a class="text-gray-600 hover:text-gray-800"><Link to='/about'>About Us</Link></a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">We Offer</a>
+            <a class="text-gray-600 hover:text-gray-800"><Link to='we-offer'>We Offer</Link></a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Portfolio</a>
+            <a class="text-gray-600 hover:text-gray-800"><Link to="portfolio">Portfolio</Link></a>
           </li>
         </nav>
       </div>
@@ -45,16 +48,16 @@ function Footer() {
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Quick Links</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Become a Model</a>
+            <a class="text-gray-600 hover:text-gray-800"><Link to='become-a-model'>Become a Model</Link></a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Testimonials</a>
+            <a class="text-gray-600 hover:text-gray-800"><Link to='testimonial'>Testimonials</Link></a>
           </li>
           <li>
             <a class="text-gray-600 hover:text-gray-800">Blogs</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800">Contact</a>
+            <a class="text-gray-600 hover:text-gray-800"><Link to='contact'>Contact</Link></a>
           </li>
         </nav>
       </div>
@@ -65,7 +68,7 @@ function Footer() {
             <label for="footer-field" class="leading-7 text-sm text-gray-600">Email</label>
             <input type="text" id="footer-field" name="footer-field" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
           </div>
-          <button class="input lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">Subscribe</button>
+          <button class="input lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded mt-3">Subscribe</button>
         </div>
         <p class="text-gray-500 text-sm mt-2 md:text-left text-center">
           <br class="lg:block hidden"/>Subscribe to our newsletter for latest updates
@@ -74,17 +77,15 @@ function Footer() {
     </div>
   </div>
   <div class="bg-gray-900">
-    <div class="containerr px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
+    <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-        </svg>
-        <span class="ml-3 text-xl">Northeast India SuperModel</span>
-      </a>
-      <p class="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© 2021 rgb01 
-        {/* <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" target="_blank">@shashank</a> */}
+      <img class="img" width="10%" src={logo}/>
+        <span style={{textAlign:'center'}} class="footbrand ml-3 text-xl items-center"> Northeast India SuperModel</span>
+      
+      <p style={{fontSize:'smaller',textAlign:'center'}} class="text-sm pl-2 text-gray-500 sm:ml-5 sm:mt-0 mt-4"> © 2021 rgb01
+        {/* <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" ></a> */}
       </p>
-     
+      </a>
       <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
         <a class="text-gray-500">
           <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">

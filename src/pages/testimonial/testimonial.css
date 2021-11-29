@@ -1,0 +1,7 @@
+.containerr{
+    background-image: url(../../img/csel3.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.45;
+    height: 300px;
+}
