@@ -92,15 +92,20 @@ left: 300%;
         top:29rem; */
     
     }
-    .con3{
+    .carousel-control-prev-icon{
         position: relative;
-        top:-30rem;
+        right: 15px !important;
+    }
+    .con3{
+        /* position: relative;
+        top:-30rem; */
     }
 
 
     .csel{
-        margin-left: 1rem;
-        margin-right: 1rem;
+        margin-left: -0.5rem;
+        padding: 1rem;
+      
     }
     .carousel-control-next-icon{
         position: relative;

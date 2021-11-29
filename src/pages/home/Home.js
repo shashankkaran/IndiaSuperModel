@@ -39,10 +39,10 @@ function Home() {
     <div className="App">
 
 
-      <a href="https://instagram.com/northeast_india_supermodel?utm_medium=copy_link"><div id="parallax" style={{ transform: `translateY(${offsetY * 0.2}px)` }} className='con con1'></div></a>
+      <a href="https://instagram.com/northeast_india_supermodel?utm_medium=copy_link"><div id="parallax" style={{ transform: `translateY(${offsetY * 0.0}px)` }} className='con con1'></div></a>
 
 
-      <div style={{ transform: `translateY(${offsetY * -0.4}px)` }} className='con con2'>
+      <div style={{ transform: `translateY(${offsetY * -0.0}px)` }} className='con con2'>
 
         <section class="text-gray-400 bg-gray-900 body-font">
           <div class="container px-5 py-24 mx-auto">
