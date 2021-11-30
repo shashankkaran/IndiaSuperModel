@@ -80,7 +80,7 @@ function Footer() {
     <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       <img class="img" width="10%" src={logo}/>
-        <span style={{textAlign:'center'}} class="footbrand ml-3 text-xl items-center"> Northeast India SuperModel</span>
+        <span style={{textAlign:'center'}} class="footbrand ml-3 text-xl items-center"> Northeast India Super Model</span>
       
       <p style={{fontSize:'smaller',textAlign:'center'}} class="text-sm pl-2 text-gray-500 sm:ml-5 sm:mt-0 mt-4"> © 2021 rgb01
         {/* <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" ></a> */}

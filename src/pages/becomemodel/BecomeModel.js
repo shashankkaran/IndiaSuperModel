@@ -24,7 +24,7 @@ function BecomeModel() {
                                     <input type="text" id="mobile" name="mobile" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="age" class="leading-7 text-sm text-gray-600">Age</label>
@@ -64,7 +64,7 @@ function BecomeModel() {
                                     <input type="text" id="country" name="country" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                           
+
 
                             <div class="p-2 w-1/2">
                                 <div class="relative">
@@ -80,8 +80,11 @@ function BecomeModel() {
                             </div>
                             <div class="p-2 w-1/2">
                                 <div class="relative">
-                                    <label for="gender" class="leading-7 text-sm text-gray-600">Gender</label>
-                                    <input type="text" id="gender" name="gender" class=" w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" disabled placeholder="Female" />
+                                <label for="gender" class="leading-7 text-sm text-gray-600">Gender</label><br/>
+                                <select class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" id="gender" name="gender" >
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
                                 </div>
                             </div>
 
@@ -91,7 +94,7 @@ function BecomeModel() {
                                     <input type="text" id="occupation" name="occupation" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="height" class="leading-7 text-sm text-gray-600">Height</label>
@@ -99,21 +102,21 @@ function BecomeModel() {
                                 </div>
 
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="chest/bust" class="leading-7 text-sm text-gray-600">Chest / Bust</label>
                                     <input type="text" id="chest/bust" name="chest/bust" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="waist" class="leading-7 text-sm text-gray-600">Waist</label>
                                     <input type="text" id="waist" name="waist" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="hips" class="leading-7 text-sm text-gray-600">Hips</label>
@@ -129,15 +132,15 @@ function BecomeModel() {
                                 </div>
                             </div>
 
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="shoe size" class="leading-7 text-sm text-gray-600">Shoe Size</label>
                                     <input type="text" id="shoe size" name="shoe size" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
-                            
+
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="hair color" class="leading-7 text-sm text-gray-600">Hair Color</label>
@@ -153,28 +156,28 @@ function BecomeModel() {
                                     <input type="text" id="eye color" name="eye color" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="tattoos" class="leading-7 text-sm text-gray-600">Tattoos</label>
                                     <input type="text" id="tattoos" name="tattoos" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="scars" class="leading-7 text-sm text-gray-600">Scars</label>
                                     <input type="text" id="scars" name="scars" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="upload your book" class="leading-7 text-sm text-gray-600">Upload your book</label>
                                     <input type="file" id="upload your book" name="upload your book" class="input w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-yellow-500 focus:bg-white focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                                 </div>
                             </div>
-                            
+
                             <div class="p-2 w-1/2">
                                 <div class="relative">
                                     <label for="upload your video" class="leading-7 text-sm text-gray-600">Upload your video</label>

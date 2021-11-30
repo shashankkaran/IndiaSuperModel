@@ -1,9 +1,9 @@
-.input{
+.input,#gender{
     color:#FBBF24 !important;
     background-color : #111827; 
     border: 1px solid #FBBF24 !important ;
   }
-  .input:hover, .input:active, .input:focus{
+  .input:hover, .input:active, .input:focus ,#gender:hover,#gender:active,#gender:focus{
       color: #FBBF24 !important;
       background-color: #111827;
   }
@@ -17,8 +17,6 @@
       color: white !important;
       font-weight: lighter;
   }
-  #gender{
-      background-color: #111827;
-      color: #111827 !important;
-
-  }
+  /* #gender{
+  /* width: 6rem; */
+  /*  */
