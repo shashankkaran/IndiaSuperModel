@@ -1,2 +1,1 @@
-Deplyed at https://shashankkaran.github.io/nextModelNepal/ 
-
+https://beta-india-super-model.netlify.app
