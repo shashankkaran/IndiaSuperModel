@@ -133,7 +133,7 @@ function Home() {
         
 
         <div data-aos="zoom-in"  id="carouselExampleControls" class="mt-5 mb-5 carousel slide" data-ride="carousel">
-        <svg fill="yellow" xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 24 24"><path d="M3 16l-3-10 7.104 4 4.896-8 4.896 8 7.104-4-3 10h-18zm0 2v4h18v-4h-18z"/></svg>
+        {/* <svg fill="yellow" xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 24 24"><path d="M3 16l-3-10 7.104 4 4.896-8 4.896 8 7.104-4-3 10h-18zm0 2v4h18v-4h-18z"/></svg> */}
          <h1 style={{textAlign:'center'}} class="mt-2 pb-4"> This Week Top 3 </h1>
           <div class="carousel-inner">
             <div class="carousel-item active">

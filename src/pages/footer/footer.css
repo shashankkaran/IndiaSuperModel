@@ -11,8 +11,9 @@
     @media only screen and (min-width: 800px) {
     .img{
 
-        width: 8%;
+        width: 10%;
     }
+
     .footerbrand{
     font-size: 2rem !important; 
 }

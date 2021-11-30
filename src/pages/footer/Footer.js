@@ -2,11 +2,13 @@ import React from 'react'
 import '../becomemodel/bam.css'
 import './footer.css'
 import logo from '../../img/logo.png'
+import logo2 from '../../img/logo2.png'
+
 import {  NavLink as Link }  from 'react-router-dom'
 function Footer() {
     return (
         <div>
-<footer  class="text-gray-600 body-font">
+<footer  class="text-gray-600 bg-gray-800 body-font">
   <hr style={{'background-color':'yellow'}}/>
   <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-wrap md:text-left text-center order-first">
@@ -71,18 +73,18 @@ function Footer() {
           <button class="input lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded mt-3">Subscribe</button>
         </div>
         <p class="text-gray-500 text-sm mt-2 md:text-left text-center">
-          <br class="lg:block hidden"/>Subscribe to our newsletter for latest updates
+          <br class="lg:block hidden "/>Subscribe to our newsletter for latest updates
         </p>
       </div>
     </div>
   </div>
-  <div class="bg-gray-900">
+  <div class="bg-gray-900 pt-0">
     <div class="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-      <img class="img" width="10%" src={logo}/>
-        <span style={{textAlign:'center'}} class="footbrand ml-3 text-xl items-center"> Northeast India Super Model</span>
+      <img class="img p-1" width="10%" src={logo2}/>
+       <img class="img p-1 " width="10%" src={logo}/>
       
-      <p style={{fontSize:'smaller',textAlign:'center'}} class="text-sm pl-2 text-gray-500 sm:ml-5 sm:mt-0 mt-4"> © 2021 rgb01
+      <p style={{fontSize:'smaller',textAlign:'center'}} class="text-sm pl-2 text-gray-500 sm:ml-5 sm:mt-0 mt-4"> © 2021 northeast india supermodel
         {/* <a href="/" rel="noopener noreferrer" class="text-gray-600 ml-1" ></a> */}
       </p>
       </a>

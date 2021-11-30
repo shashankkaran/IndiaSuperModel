@@ -23,10 +23,10 @@ a:hover{
 }
 
 .nav{
-   
-    /* height: 100vh; */
+   text-align: center;
+    /* height: 150px; */
     background-size:100%;
-   
+    height: fit-content;
     /* width: 100vw; */
     /* height: 100vh !important; */
     background-repeat: no-repeat;
@@ -35,12 +35,12 @@ a:hover{
 .onav{
     /* margin-bottom: 10px; */
     position: relative;
-    bottom: 35%;
+    bottom: 0%;
 }
 
 
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 1000px) {
    .top-box{
        padding-bottom: 0rem !important;
        margin-bottom: -7rem !important;
@@ -59,40 +59,48 @@ a:hover{
  header{
      /* height: 40% !important; */
  }
+ a{
+     /* font-size: small; */
+ }
+ .nav{
+     height: 140px;
+ }
 }
   
   
-  @media only screen and (max-width: 760px) {
+  @media only screen and (max-width: 1000px) {
     .onav{
         /* margin-bottom: 10px; */
         position: relative;
-       top: -0.3rem;
+       top: 0rem;
     }
     .brand{
         position: relative;
         left: 1rem;
+        /* margin-left: center; */
     }
 .break{
    display: none;
 }
    .smm{
        position: relative;
-     right: 1rem;
+     right: 0rem;
    }
    .top-box{
     padding-bottom: 0rem !important;
     margin-bottom: -2rem !important;
 }
    .nav{
-       
+       padding: 2rem;
        
        /* height: 120%; */
        
-       background-size:cover ;
-       height: fit-content;
+       /* background-size:cover ; */
+       /* height: 150px !important; */
    }
    .link{
        padding:5px ;
+       text-align: center;
    }
    a{
     color: #FCD34D !important;
