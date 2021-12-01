@@ -16,7 +16,7 @@ function Footer() {
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Contact Us</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800">+91 12345 67899</a>
+            <a class="text-gray-600 hover:text-gray-800">+91 70746 02135</a>
           </li>
           <li>
             <a class="text-gray-600 hover:text-gray-800">6th Mile Tadong Gangtok Sikkim 737102</a>
