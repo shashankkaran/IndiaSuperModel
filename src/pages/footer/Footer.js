@@ -19,6 +19,9 @@ function Footer() {
             <a class="text-gray-600 hover:text-gray-800">+91 70746 02135</a>
           </li>
           <li>
+            <a class="text-gray-600 hover:text-gray-800">+91 93390 73045</a>
+          </li>
+          <li>
             <a class="text-gray-600 hover:text-gray-800">6th Mile Tadong Gangtok Sikkim 737102</a>
           </li>
           <li>
