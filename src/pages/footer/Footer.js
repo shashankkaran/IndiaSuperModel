@@ -3,9 +3,14 @@ import '../becomemodel/bam.css'
 import './footer.css'
 import logo from '../../img/logo.png'
 import logo2 from '../../img/logo2.png'
+import $ from 'jquery'
 
 import {  NavLink as Link }  from 'react-router-dom'
 function Footer() {
+
+
+
+
     return (
         <div>
 <footer  class="text-gray-600 bg-gray-800 body-font">
