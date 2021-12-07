@@ -58,7 +58,7 @@ function Footer() {
         <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Quick Links</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-gray-800"><Link to='become-a-model'>Become a Model</Link></a>
+            <a href="https://docs.google.com/forms/d/1ElKeMTs8CslLsMR3IBBqYEbrNZNJ5hH9YrGCFwXCU7Q/edit?usp=sharing" class="text-gray-600 hover:text-gray-800">Become a Model</a>
           </li>
           <li>
             <a class="text-gray-600 hover:text-gray-800"><Link to='testimonial'>Testimonials</Link></a>
