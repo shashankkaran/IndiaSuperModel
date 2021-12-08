@@ -105,7 +105,7 @@ function BecomeModel() {
                 <div class="container px-5 py-24 mx-auto">
                     <div class="flex flex-col text-center w-full mb-12">
                         <GoogleForm/>
-                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-#FBBF24">BECOME A MODEL</h1>
+                        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-#FBBF24">BECOME A MODEL<br/> Form Price <span style={{color:'red'}}>Rs @699 Only</span></h1>
                         <h5 class="lg:w-2/3 mx-auto leading-relaxed text-white text-base">We understand that it can be very daunting and confusing to know where and how to get started in modelling.Northeast India Super Models can help,we are here to demystify the routes into the industry and to help get you to the position where you can confidently apply to a professional agencies for freelance castings.<br /> Northeast India Super Models can advise you on your model potential,the types of modelling you are suited to and if modelling is something you are serious about, help you to create and build your personal professional model portfolio </h5>
                         <img width="50%" alt="testimonial" class="w-150 h-150 mb-8 object-cover object-center  inline-block border-2 border-gray-200 bg-gray-100 ml-auto mr-auto mt-5" src={QR} />
 

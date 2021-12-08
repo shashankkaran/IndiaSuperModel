@@ -97,7 +97,7 @@ const checkSize =() =>{
                 <button type='submit' className="butt">Upload
                 </button>
                 <br/>
-                <span style={{color:'red'}} id="sizespan">File Limit Exceeded</span>
+               
             </form>
 
             <Box class="pb-4" sx={{ width: '100%' }}>
