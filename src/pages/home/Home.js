@@ -14,6 +14,7 @@ import csel3 from "../../img/m3.jpg";
 import './home.css';
 import Sliderr from '../slider/Sliderr';
 import Aos from "aos";
+import GoogleForm from '../becomemodel/GoogleForm';
 
 function Home() {
   const [offsetY, setOffsetY] = useState(0);
@@ -45,7 +46,10 @@ function Home() {
       <div style={{ transform: `translateY(${offsetY * -0.0}px)` }} className='con con2'>
 
         <section class="text-gray-400 bg-gray-900 body-font">
+          
           <div class="container px-5 py-24 mx-auto">
+          
+          <GoogleForm class="mt-0"/>
             <div data-aos={anime[0]} class="flex flex-col text-center w-full mb-20">
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 ">WE OFFER</h1>
               <p class="lg:w-2/3 mx-auto leading-relaxed text-white">We understand that our role is to cause,create,initiate and BRING TO LIFE YOUR DESIRED IMPRESSION. Over the years,we have formed relationships with a diverse and vast clientele. We now create solutions and trends</p>

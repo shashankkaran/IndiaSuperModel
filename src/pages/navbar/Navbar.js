@@ -32,10 +32,10 @@ function Navbar() {
             <br />
             <div style={{ position: 'relative', zIndex: '1' }} class="collapse navbar-collapse" id="navbarSupportedContent">
               <a class="link nav-link ml-auto mr-auto hover:text-yellow-400"><Link to='/'> Home</Link> </a>
-              <a class="link nav-link ml-auto mr-auto  hover:text-yellow-400">  <Link to='/about'>About Us</Link></a>
+              <a class="link nav-link ml-auto mr-auto  hover:text-yellow-400"><Link to='/about'>About Us</Link></a>
               <a class="link nav-link ml-auto mr-auto hover:text-yellow-400"><Link to='/we-offer'>We Offer</Link></a>
               <a class="link nav-link ml-auto mr-auto hover:text-yellow-400"><Link to='/portfolio'>Portfolio</Link></a>
-              <a href="https://docs.google.com/forms/d/1ElKeMTs8CslLsMR3IBBqYEbrNZNJ5hH9YrGCFwXCU7Q/edit?usp=sharing" class="link nav-link ml-auto mr-auto hover:text-yellow-400">Become a Model</a>
+              <a class="link nav-link ml-auto mr-auto hover:text-yellow-400"><Link to='/become-a-model'>Become a Model</Link></a>
               <a class="link nav-link ml-auto mr-auto hover:text-yellow-400"><Link to='/testimonial'>Testimonials</Link></a>
             </div>
             <br />
