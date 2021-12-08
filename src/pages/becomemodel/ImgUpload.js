@@ -3,6 +3,25 @@ import './imgUpload.css';
 import { ref, getDownloadURL, uploadBytesResumable } from "firebase/storage";
 import { storage } from '../../firebase';
 
+import LinearProgress from '@mui/material/LinearProgress';
+import Typography from '@mui/material/Typography';
+import Box from '@mui/material/Box';
+function LinearProgressWithLabel(props) {
+    return (
+      <Box sx={{ display: 'flex', alignItems: 'center' }}>
+        <Box sx={{ width: '100%', mr: 1 }}>
+          <LinearProgress variant="determinate" {...props} />
+        </Box>
+        <Box sx={{ minWidth: 35 }}>
+          <Typography variant="body2" color="text.secondary">{`${Math.round(
+            props.value,
+          )}%`}</Typography>
+        </Box>
+      </Box>
+    );
+  }
+  
+
 function ImgUpload() {
     const [progress, setProgress] = useState(0)
     // Get a reference to the storage service, which is used to create references in your storage bucket
@@ -41,12 +60,15 @@ function ImgUpload() {
 
     return (
         <div>
-            <form  onSubmit={HandleUpload}>
-                <input type="file"  name="img" className="input" />
+            <form onSubmit={HandleUpload}>
+                <input type="file" name="img" className="input center pl-3 mb-2 pb-0" />
                 <button type='submit' className="butt">Upload
                 </button>
             </form>
-                <h3 class="pb-5 pt-2 center">Uploaded {progress}</h3>
+
+            <Box class="pb-4" sx={{ width: '100%' }}>
+                <LinearProgressWithLabel value={progress} />
+            </Box>
 
         </div>
     );
