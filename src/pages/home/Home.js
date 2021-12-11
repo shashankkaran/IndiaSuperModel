@@ -49,7 +49,7 @@ function Home() {
           
           <div class="container px-5 py-24 mx-auto">
           
-          <GoogleForm class="mt-0"/>
+         <div data-aos={anime[1]}> <GoogleForm  class="mt-0"/> </div>
             <div data-aos={anime[0]} class="flex flex-col text-center w-full mb-20">
               <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 ">WE OFFER</h1>
               <p class="lg:w-2/3 mx-auto leading-relaxed text-white">We understand that our role is to cause,create,initiate and BRING TO LIFE YOUR DESIRED IMPRESSION. Over the years,we have formed relationships with a diverse and vast clientele. We now create solutions and trends</p>

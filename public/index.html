@@ -56,6 +56,20 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('body').bind('cut copy paste', function (e){
+          e.preventDefault();
+        })
+        $("body").on("contextmenu",function(e){
+          return false;
+        } )
+      })
+
+    </script>
+
+
+
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
