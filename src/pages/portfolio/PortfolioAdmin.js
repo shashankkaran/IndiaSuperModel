@@ -146,38 +146,56 @@ function Portfolio() {
     console.log(arr)
 
 
+    function authen() {
+
+        let person = prompt("Please enter Password", "Brown Munde");
+       
+        if (person == "admin@123" || person == "revna@123") {
 
 
+           
+        } else {
+            alert('try again');
+         authen();
+        }
 
 
+    }
 
+
+    window.addEventListener('load', (event) => {
+       authen();
+      });
     return (
-        <div class='container center'>
-            {/* <form onSubmit={HandleUpload}>
+
+    
+        < div class='container center' >
+           
+            <form onSubmit={HandleUpload}>
                 <label for="file" class="leading-7 text-sm text-gray-600">Upload Portfolio Images Here
                     <br />
                     {/* <span style={{color:'red'}}> File name should be YourName_DateofBirth (Example : AnkitaKumari 16 Nov)</span> */}
-                {/* </label>
+                </label>
                 <br />
                 <input id="input" type="file" onChange={checkSize} accept='.png,.jpg' name="img" className="input center pl-0 mb-2 pb-0" />
                 <button type='submit' className="butt">Upload
                 </button>
-                <br /> */} 
+                <br />
 
-            {/* </form> */}
+            </form>
 
 
-            {/* <Box class="pb-4" sx={{ width: '100%' }}>
+            <Box class="pb-4" sx={{ width: '100%' }}>
                 <LinearProgressWithLabel value={progress} />
             </Box>
-            <button class="input p-1" onClick={getImage}>Get Images</button> */}
+            <button class="input p-1" onClick={getImage}>Get Images</button>
 
 
 
 
 
             <section class="text-gray-400 body-font bg-gray-900">
-            <h1 class="center">Portfolio</h1>
+              
                 <div class="container px-5 py-24 mx-auto">
 
                     <div class="flex flex-wrap -m-1">
@@ -202,7 +220,7 @@ function Portfolio() {
 
 
 
-        </div>
+        </div >
     )
 }
 

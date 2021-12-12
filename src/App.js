@@ -10,7 +10,7 @@ import BecomeModel from './pages/becomemodel/BecomeModel';
 import Weoffer from './pages/weoffer/Weoffer';
 import Testimonial from './pages/testimonial/Testimonial';
 import Portfolio from './pages/portfolio/Portfolio';
-// import PortfolioAdmin from './pages/portfolio/PortfolioAdmin';
+import PortfolioAdmin from './pages/portfolio/PortfolioAdmin';
 function App() {
 
 
@@ -27,7 +27,8 @@ function App() {
           <Route path="/about" element={<About/>}></Route>
           <Route path="/testimonial" element={<Testimonial/>}></Route>
           <Route path="/portfolio" element={<Portfolio/>}></Route>
-          {/* <Route path="/portfolio-admin" element={<PortfolioAdmin/>}></Route> */}
+          <Route path="/portfolio-admin" element={<PortfolioAdmin/>}></Route>
+
    
 
         </Routes>

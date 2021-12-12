@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 // import Navbar from "../navbar/Navbar"
-import x6 from "../../img/m6.jpg";
+import x6 from "../../img/m6.png";
 import x5 from "../../img/m5.png";
 
 import x4 from "../../img/m4.png";
@@ -61,9 +61,9 @@ function Home() {
                 <div class="flex relative">
                   <img data-aos="zoom-in-right" alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x1} />
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
-                    <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
-                    <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">Model 1</h2>
+                    <h1 class="title-font text-lg font-medium text-white mb-3">Harshita Khurana</h1>
+                    <h2 class="leading-relaxed">Life is so short that there is no reason not to go for what sets your soul on fire.</h2>
                   </div>
                 </div>
               </div>
@@ -71,9 +71,9 @@ function Home() {
                 <div class="flex relative">
                   <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x2} />
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
-                    <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
-                    <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">Model 2</h2>
+                    <h1 class="title-font text-lg font-medium text-white mb-3">Kriti Ghimire</h1>
+                    <h2 class="leading-relaxed">Life is so short that there is no reason not to go for what sets your soul on fire.</h2>
                   </div>
                 </div>
               </div>
@@ -88,9 +88,9 @@ function Home() {
                 <div class="flex relative">
                   <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x3} />
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
-                    <h1 class="title-font text-lg font-medium text-white mb-3">The 400 Blows</h1>
-                    <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">Model 3</h2>
+                    <h1 class="title-font text-lg font-medium text-white mb-3">Neeva Adhikari</h1>
+                    <h2 class="leading-relaxed">Life is so short that there is no reason not to go for what sets your soul on fire.</h2>
                   </div>
                 </div>
               </div>
@@ -98,9 +98,9 @@ function Home() {
                 <div class="flex relative">
                   <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x4} />
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
-                    <h1 class="title-font text-lg font-medium text-white mb-3">Neptune</h1>
-                    <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">Model 4</h2>
+                    <h1 class="title-font text-lg font-medium text-white mb-3">Rubishka Shrestha</h1>
+                    <h2 class="leading-relaxed">Life is so short that there is no reason not to go for what sets your soul on fire.</h2>
                   </div>
                 </div>
               </div>
@@ -108,9 +108,9 @@ function Home() {
                 <div class="flex relative">
                   <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x5} />
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
-                    <h1 class="title-font text-lg font-medium text-white mb-3">Holden Caulfield</h1>
-                    <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">Model 5</h2>
+                    <h1 class="title-font text-lg font-medium text-white mb-3">Smriti Yagik</h1>
+                    <h2 class="leading-relaxed">Life is so short that there is no reason not to go for what sets your soul on fire.</h2>
                   </div>
                 </div>
               </div>
@@ -118,9 +118,9 @@ function Home() {
                 <div class="flex relative">
                   <img alt="gallery" class="absolute inset-0 w-full h-full object-cover object-center" src={x6} />
                   <div class="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
-                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">THE SUBTITLE</h2>
-                    <h1 class="title-font text-lg font-medium text-white mb-3">Alper Kamu</h1>
-                    <p class="leading-relaxed">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+                    <h2 class="tracking-widest text-sm title-font font-medium text-yellow-400 mb-1">Model 6</h2>
+                    <h1 class="title-font text-lg font-medium text-white mb-3">Soniya Bista</h1>
+                    <h2 class="leading-relaxed">Life is so short that there is no reason not to go for what sets your soul on fire.</h2>
                   </div>
                 </div>
               </div>

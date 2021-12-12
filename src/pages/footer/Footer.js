@@ -47,7 +47,7 @@ function Footer() {
             <a class="text-gray-600 hover:text-gray-800"><Link to='/about'>About Us</Link></a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800"><Link to='we-offer'>We Offer</Link></a>
+            {/* <a class="text-gray-600 hover:text-gray-800"><Link to='we-offer'>We Offer</Link></a> */}
           </li>
           <li>
             <a class="text-gray-600 hover:text-gray-800"><Link to="portfolio">Portfolio</Link></a>
@@ -67,7 +67,7 @@ function Footer() {
             <a class="text-gray-600 hover:text-gray-800">Blogs</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-gray-800"><Link to='contact'>Contact</Link></a>
+            {/* <a class="text-gray-600 hover:text-gray-800"><Link to='portfolio-admin'>Admin</Link></a> */}
           </li>
         </nav>
       </div>
