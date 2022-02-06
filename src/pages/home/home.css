@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+
 body{
     border: 0;
     padding: 0;
@@ -36,18 +39,22 @@ left: 300%;
     right: 300%;
 }
 
-
+.cc{
+    z-index: 1;
+}
 .csel{
-    width: 50vh;
+    width: 100%;
    
     position: relative;
     left: 0%;
-    height: 50vh;
+    height:70vh ;
     border-radius: 1rem;
    
     right: auto;
 }
 .con{
+
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,11 +66,11 @@ left: 300%;
 }
 .con1{
     /* background-image:url(../../img/models.jpeg); */
-    background-size:100%;
+    /* background-size:100%;
     background-image: url(../../img/fbcoverfinal.png);
    height: 20vh;
     filter: contrast(2.0);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 /* background-attachment: fixed; */
     
     

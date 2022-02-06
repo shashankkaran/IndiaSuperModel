@@ -79,20 +79,12 @@ function About() {
                                 <span class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></span>
                             </div>
                         </div>
-                        <div class="lg:w-1/3 lg:mb-0 p-4">
-                            <div class="h-full text-center">
-                                <img alt="testimonial" class="w-200 h-200 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={m5} />
-                                {/* <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
-                                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Kritika Pradhan</h2>
-                                <p class="text-gray-500">COO (Chief Operating Officer)</p>
-                                <span class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></span>
-                            </div>
-                        </div>
+                       
                         <div class="lg:w-1/3 lg:mb-0 p-4">
                             <div class="h-full text-center">
                                 <img alt="testimonial" class="w-200 h-200 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={m6} />
                                 {/* <p class="leading-relaxed">Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p> */}
-                                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Sarfaraz Ahmad</h2>
+                                <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">Pawan Diyali</h2>
                                 <p class="text-gray-500">CMO (Chief Marketing Officer)</p>
                                 <span class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></span>
                             </div>
@@ -198,16 +190,7 @@ function About() {
                                 {/* <p class="mt-1">$18.40</p> */}
                             </div>
                         </div>
-                        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-                            <a class="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={t9} />
-                            </a>
-                            <div class="mt-4 center">
-                                {/* <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3> */}
-                                <h2 class="text-gray-900 title-font text-lg font-medium">Om Prakash Sewa</h2>
-                                {/* <p class="mt-1">$18.40</p> */}
-                            </div>
-                        </div>
+                       
                         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a class="block relative h-48 rounded overflow-hidden">
                                 <img alt="ecommerce" class="object-cover object-center w-full h-full block" src={t10} />

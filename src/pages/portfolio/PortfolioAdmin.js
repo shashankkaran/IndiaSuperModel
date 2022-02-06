@@ -70,12 +70,12 @@ function Portfolio() {
         let files = input.files;
         // document.querySelector('#sizespan').style.visibility='none';
 
-        if (files[0].size > 1024 * 1024) {
+        if (files[0].size > 5024 * 1024) {
 
 
             document.querySelector('.butt').style.visibility = 'hidden';
             // document.getElementById('butt2').style.visibility = 'hidden';
-            alert("File Size Exceeded 1MB")
+            alert("File Size Exceeded 5MB")
             return;
         }
         else {
